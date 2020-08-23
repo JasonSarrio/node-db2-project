@@ -5,7 +5,7 @@ exports.seed = async function (knex) {
         {
             vin: '2T1BR30E46C595221',
             make: 'Toyota',
-            model: 'Corola',
+            model: 'Corolla',
             mileage: 101234,
             title: 'clean',
             transmission: 'automatic',

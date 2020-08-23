@@ -2,7 +2,7 @@ const { table } = require('../data/config');
 const { text } = require('express');
 
 exports.up = async function (knex) {
-    // make table with coloumns
+    // make table with columns
     await knex.schema.createTable('cars', (table) => {
         // table.increments('id');
         table.uuid('vin', 17).notNull().unique().primary();

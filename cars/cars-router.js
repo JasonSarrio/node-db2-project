@@ -46,7 +46,7 @@ router.put('/:vin', async (req, res, next) => {
         await db('cars').where('vin', req.params.vin).update(req.body);
 
         res.status(200).json({
-            msg: 'Sucessfully Updated!',
+            msg: 'Successfully Updated!',
         });
     } catch (err) {
         next(err);
