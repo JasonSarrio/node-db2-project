@@ -11,6 +11,8 @@ exports.seed = async function (knex) {
             transmission: 'automatic',
         },
         {
+
+            
             vin: 'JM3ER29L070133282',
             make: 'Mazda',
             model: 'CX 7',
